@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/gameback">
+
+    <TextView
+        android:id="@+id/level_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stage"
+        android:textSize="24sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/timer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time: 30 sec"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/lives_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❤️❤️❤️❤️❤️"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/answer_box1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/box_background"
+            android:gravity="center"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/answer_box2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/box_background"
+            android:gravity="center"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/answer_box3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/box_background"
+            android:gravity="center"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/letter1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circle_background"
+            android:text="A"
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/letter2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circle_background"
+            android:text="B"
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/letter3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circle_background"
+            android:text="C"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="answer"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/score_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="score"
+        android:layout_gravity="start|bottom"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"/>
+</LinearLayout>
