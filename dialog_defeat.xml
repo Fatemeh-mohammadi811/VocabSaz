@@ -15,7 +15,6 @@
             android:scaleType="fitXY"
             android:layout_gravity="center_horizontal" />
 
-        <!-- متن "شما باختید" -->
         <TextView
             android:id="@+id/defeat"
             android:layout_width="wrap_content"
